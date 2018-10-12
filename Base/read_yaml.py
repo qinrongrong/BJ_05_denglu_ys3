@@ -7,12 +7,19 @@ class ReadYaml():
         with open(self.filepath,"r",encoding="utf-8")as f:
             return yaml.load(f)
     def read_yaml2(self):
-        with open("../Data/login.yaml","r",encoding="utf-8")as f:
+        with open("../Data/address.yaml","r",encoding="utf-8")as f:
             return yaml.load(f)
 if __name__ == '__main__':
-    datas=ReadYaml("login.yaml").read_yaml2()
-    print(datas)
-    arrs = []
-    for data in datas.values():
-        arrs.append((data.get("username"), data.get("password")))
-    print(arrs)
+    def get_data(text_type):
+        datas=ReadYaml("address.yaml").read_yaml2()
+        arrs = []
+        if text_type=="add":
+            for data in datas.get("add_address").values():
+                arrs.append((data.get("name"), data.get("phone"),data.get("sheng"),data.get("shi"),data.get("qu"),data.get("address"),data.get("youbian")))
+            return arrs
+        elif text_type=="update":
+            for data in datas.get("update_address").values():
+                arrs.append((data.get("name"), data.get("phone"),data.get("sheng"),data.get("shi"),data.get("qu"),data.get("address"),data.get("youbian"),data.get("toast")))
+            return arrs
+
+

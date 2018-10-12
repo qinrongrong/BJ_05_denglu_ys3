@@ -1,0 +1,79 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1539312717911" stop="1539312787598">
+  <name>test_address</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1539312717911" status="passed" stop="1539312764908">
+      <name>TestAddress02.test02_address[\u5f20\u4e09-12312312312-\u5e7f\u4e1c\u7701-\u6df1\u5733\u5e02-\u798f\u7530\u533a-8080\u53f7-271000]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6732-MainThread"/>
+        <label name="host" value="SKY-20160204UMD"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1539312733199" status="passed" stop="1539312734389">
+          <name>点击我</name>
+          <title>点击我</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1539312734389" status="passed" stop="1539312736978">
+          <name>点击有账号去登录</name>
+          <title>点击有账号去登录</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1539312736978" status="passed" stop="1539312738974">
+          <name>输入账号</name>
+          <title>输入账号</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1539312738974" status="passed" stop="1539312741523">
+          <name>输入密码</name>
+          <title>输入密码</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1539312741523" status="passed" stop="1539312742089">
+          <name>点击登录按钮</name>
+          <title>点击登录按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+        <step start="1539312742089" status="passed" stop="1539312744998">
+          <name>点击设置按钮</name>
+          <title>点击设置按钮</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1539312764935" status="passed" stop="1539312782115">
+      <name>TestAddress02.test_update_address[\u674e\u56db-00000000000-\u798f\u5efa\u7701-\u53a6\u95e8\u5e02-\u601d\u660e\u533a-yayatt-271009-\u4fdd\u5b58\u6210\u529f]</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6732-MainThread"/>
+        <label name="host" value="SKY-20160204UMD"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1539312782158" status="passed" stop="1539312787598">
+      <name>TestAddress02.test_delete_address</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6732-MainThread"/>
+        <label name="host" value="SKY-20160204UMD"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
